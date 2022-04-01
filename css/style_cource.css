@@ -1,0 +1,249 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+/* ============================== */
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+/* ============================== */
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 16px;
+	color: #1e212c;
+}
+
+.block {
+	max-width: 810px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0px 0px 26px 0px;
+}
+
+.line {
+	margin: 0px 0px 40px 0px;
+}
+
+.date {
+	display: inline-block;
+	color: #787a80;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 24px 0px 0px;
+}
+
+.time {
+	display: inline-block;
+	color: #787a80;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 0px 0px;
+}
+
+.icon{
+	margin: 5px 8px 0px 0px;
+}
+
+.line .mas:not(:first-of-type){
+	margin: 0px 12px 0px 0px;
+}
+
+.share {
+	display: inline-block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 12px 0px 0px;
+}
+
+.line .share {
+	float: right;
+}
+
+.image {
+	margin: 0px 0px 60px 0px;
+}
+
+.text-one {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 24px 0px;
+}
+
+.text-two {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 48px 0px;
+}
+
+.text-three {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	margin: 0px 0px 48px 0px;
+	padding: 0px 0px 0px 58px;
+
+	background: url("../img/braces.svg") 0 0 / auto no-repeat;
+}
+
+.text-four {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 24px 0px;
+}
+
+.list {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 24px 0px;
+}
+
+.list li {
+	margin: 0px 0px 4px 0px;
+	padding: 0px 0px 0px 32px;
+
+	background: url("../img/check.svg") 0 6px / auto no-repeat;
+}
+
+.list li:last-child {
+	margin: 0px 0px 0px 0px;
+}
+
+.text-five {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+	margin: 0px 0px 63px 0px;
+}
+
+.line:last-child{
+	margin: 0px 0px 123px 0px;
+}
+
+/* .block {
+	border: white solid 2px;
+	max-width: 810px;
+	margin: 152px 120px 765px 345px;
+}
+
+h1 {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin: 0 0 40px 0;
+}
+
+.image {
+	margin: 0 0 60px 0;
+}
+
+.text-one {
+	margin: 0 0 24px 0;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+}
+
+.text-two {
+	margin: 0 0 48px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.text-three {
+	margin: 0 0 48px 0px;
+	padding: 0px 0px 0px 58px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+
+	background: url("../img/braces.svg") 0 0 / auto no-repeat;
+}
+
+.text-four {
+	margin: 0 0 24px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.list {
+	margin: 0 0 20px 0px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.list li {
+	margin: 0 0 4px 0;
+	padding: 0px 0px 0px 32px;
+
+	background: url("../img/Vector.svg") 0 6px / auto no-repeat;
+}
+
+.text-five {
+	margin: 0 0 92px 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.list-two {
+	margin: 0 0 48px 0px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.list-two li {
+	margin: 0 0 12px 0;
+	padding: 0px 0px 0px 32px;
+
+	background: url("../img/Vector.svg") 0 6px / auto no-repeat;
+}
+
+.text-six {
+	margin: 0px 0px 8px 0px;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.text-seven {
+	margin: 0px 0px 40px 0px;
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+}
+
+.button {
+	display: inline-block;
+	text-align: center;
+	width: 161px;
+	height: 44px;
+
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+}
+
+.button-text {
+	color: white;
+
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 3.14;
+} */
